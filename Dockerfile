@@ -1,3 +1,4 @@
-FROM scratch
-ADD code:/code
-CMD /code/main-2022-04-2520:06:20.bin 
+FROM golang:1.16-alpine
+ADD /code /code
+WORKDIR /code
+CMD go run main.go
