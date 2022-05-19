@@ -16,6 +16,14 @@ Creating a ticket queue that allows you to add tickets and displays them using b
  - [ ] Create priorities for tickets
  - [ ] Create Schedule algorithm
  - [ ] Create snooze for tickets
+### Handlers
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+ - [ ] Ticket\put     #Create
+ - [ ] Ticket\get     #Read
+ - [ ] Ticket\post    #Update
+ - [ ] Ticket\delete  #Delete
+ - [ ] Queue\get
+ - [ ] Snooze\post
 ## Testing
  - [ ] Create CI
  - [ ] Create Unit Testing
